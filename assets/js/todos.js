@@ -27,4 +27,4 @@ $("input[type='text']").on("keypress",function(){
         //create a new li and add to ul
         $("ul").append("<li><span>X </span> "+ todoText + " </li>");
     }
-})
+});
