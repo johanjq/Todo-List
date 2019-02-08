@@ -27,4 +27,8 @@ $("input[type='text']").on("keypress",function(){
         //create a new li and add to ul
         $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> "+ todoText + " </li>");
     }
+
+});
+$("h1").on("click", "i", function(){
+    $("input[type='text']").fadeToggle();
 });
